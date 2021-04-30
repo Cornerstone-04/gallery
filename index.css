@@ -1,3 +1,4 @@
+@import "http://fonts.fontstorage.com/import/chelaone.css";
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +13,17 @@ body{
     display: grid;
     place-items: center;
     min-height: 100vh;
+}
+
+.slider-box h1{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-style: italic;
+    font-family: 'Chela One';
+    letter-spacing: 4px;
+    -webkit-text-stroke: 1px rgba(36, 100, 36, 0.856);
 }
 
 .main-slider{
@@ -41,7 +53,7 @@ body{
 }
 
 .main-slider label{
-    margin: 50px 0 0 20px;
+    margin: 35px 0 0 20px;
     border: 3px solid #888;
     float: left;
     cursor: pointer;
